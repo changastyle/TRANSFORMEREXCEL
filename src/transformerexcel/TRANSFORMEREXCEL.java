@@ -17,6 +17,7 @@ public class TRANSFORMEREXCEL
     private final static String archivoSicomDB = "C:\\transformer\\sicom-db.xls";
     private final static String archivoRes = "C:\\transformer\\res.csv";
     
+    /*
     public static void main(String[] args)
     {
        
@@ -60,7 +61,7 @@ public class TRANSFORMEREXCEL
         
         escribirRes(arrOtro);
     }
-    
+    */
     public static List<SicomModel> convertirSicomDB()
     {
         List<SicomModel> arr = new ArrayList<SicomModel>();
